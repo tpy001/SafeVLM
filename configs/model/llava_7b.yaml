@@ -1,6 +1,7 @@
 model:
     _target_:  src.model.LlaVA
-    model_path: /data3/tangpeiyuan/LLM/weights/llava-1.5-7B/
+    model_path: weights/llava-1.5-7B/
+    # model_path: llava-hf/llava-1.5-7b-hf
     torch_dtype: float16
     device: cuda
     # trainable: frozen

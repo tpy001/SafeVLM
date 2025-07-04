@@ -5,5 +5,5 @@ defaults:
   - model: llava_7b
   - evaluator: LLamaGuard3  
   # - evaluator: MDJudge  
-  - dataset: SPA_VL
+  - dataset: SPA_VL_test
   - _self_
